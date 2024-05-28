@@ -7,21 +7,36 @@ body {
   width: 400px;
   background: #fff;
   margin: 16px auto;
+  padding: 4px;
 }
 
 .title {
   background: #e3f4ff;
+  font-size: 16px;
+  padding: 8px;
+  margin: 8px;
 }
 
 .content {
   background: #e3f4ff;
+  padding: 16px 8px;
+  margin: 8px;
 }
 
 .button-container {
   background: #e3f4ff;
+  padding: 8px;
+  text-align: center;
+  margin: 8px;
 }
 
 button {
   background: white;
+  display: block;
   border: 1px solid #eee;
+  margin: auto;
+  padding: 8px 24px;
 }
+
+/* - There is 8px between the edge of the card and its content (the blue sections).
+- There is an 8px gap between each of the blue sections inside the card.
